@@ -1,0 +1,23 @@
+body {
+    border: 1px solid yellow;
+}
+
+.header {
+    border: 2px solid orange;
+}
+
+.link-header {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
