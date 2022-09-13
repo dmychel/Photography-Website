@@ -21,3 +21,28 @@ a:link {
     text-decoration: none;
     color: black;
 }
+
+.images-y {
+    border: 3px solid red;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: -5px;
+}
+
+.y {
+    max-width: 300px;
+    height: auto;
+}
+
+.images-x {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.x {
+    max-width: 400px;
+    height: auto;
+}
