@@ -1,34 +1,44 @@
 body {
     border: 1px solid yellow;
+    background-color: black;
+    color: white;
 }
+
+
+/* HEADER */
 
 .header {
     border: 2px solid orange;
+    display: flex;
 }
 
-.link-header {
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.sub-title {
+    position: relative;
+    top: -25px;
 }
 
 ul {
     list-style-type: none;
+    display: flex;
+    margin-top: 35px;
+    gap: 15px;
 }
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
+
+
+/* CONTENT */ 
 
 .images-y {
     border: 3px solid red;
     margin-left: 200px;
     margin-right: 200px;
     display: flex;
-    justify-content: space-around;
-    gap: -5px;
+    justify-content: center;
+    gap: 2px;
 }
 
 .y {
@@ -37,6 +47,9 @@ a:link {
 }
 
 .images-x {
+    border: 3px solid red;
+    margin-left: 200px;
+    margin-right: 200px;
     display: flex;
     justify-content: center;
     gap: 2px;
