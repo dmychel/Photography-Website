@@ -1,0 +1,30 @@
+body {
+    border: 1px solid yellow;
+    background-color: black;
+    color: white;
+}
+
+
+/* HEADER */
+
+.header {
+    border: 2px solid orange;
+    display: flex;
+}
+
+.sub-title {
+    position: relative;
+    top: -25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 35px;
+    gap: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
